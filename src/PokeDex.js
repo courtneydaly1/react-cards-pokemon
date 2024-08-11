@@ -3,7 +3,6 @@ import { useAxios } from "./hooks";
 import PokemonSelect from "./PokemonSelect";
 import PokemonCard from "./PokemonCard";
 import "./PokeDex.css";
-import { clear } from "console";
 
 /* Renders a list of pokemon cards.
  * Can also add a new card at random,

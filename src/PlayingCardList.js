@@ -20,7 +20,7 @@ function CardTable() {
       </div>
       <div className="PlayingCardList-card-area">
         {cards.map(cardData => (
-          <PlayingCard key={cardData.id} front={cardData.cards[0].image} />
+          <PlayingCard key={cardData.id} front={cardData.image} />
         ))}
       </div>
     </div>
