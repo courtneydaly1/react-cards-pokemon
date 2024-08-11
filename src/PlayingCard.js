@@ -11,7 +11,7 @@ function PlayingCard({ front, back = backOfCard }) {
     <img
       src={isFacingUp ? front : back}
       alt="playing card"
-      onClick={flipCard}
+      onClick={flip}
       className="PlayingCard Card"
     />
   );
